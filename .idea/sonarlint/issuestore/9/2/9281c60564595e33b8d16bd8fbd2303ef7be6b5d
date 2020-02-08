@@ -1,0 +1,8 @@
+
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÕÊñ8Ç¿ûû-
+Isquid:S1168"+Return an empty collection instead of null.(¥¹ï8è–ûû-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8šÒÔı-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(üò·úÿÿÿÿ8šÒÔı-
+Zsquid:S1172
+"7Remove this unused method parameter "numbersOfTickets".(“€äâøÿÿÿÿ8è–ûû-

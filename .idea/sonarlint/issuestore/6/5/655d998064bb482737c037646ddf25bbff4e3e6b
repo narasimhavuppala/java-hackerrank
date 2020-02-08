@@ -1,0 +1,5 @@
+
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(¶–ÜÏ8ÂÄÌõı-
+Msquid:S1066"/Merge this if statement with the enclosing one.(ğ¯ç…8é¼éöı-
+ squid:ForLoopCounterChangedCheck"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ùı‡øÿÿÿÿ8à…­÷ı-

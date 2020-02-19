@@ -2,7 +2,7 @@ package com.company.datastructures.list;
 
 
 public class TrainLinkedListApp {
-	LinkedListImpl<TrainCar> train = new LinkedListImpl<>();
+	LinkedList<TrainCar> train = new LinkedListImpl<>();
 
 	public static void main(String[] args) {
 		TrainLinkedListApp app = new TrainLinkedListApp();

@@ -8,7 +8,7 @@ public interface IStack<X>{
 
     void push(X item);
 
-    void pop();
+    X pop();
 
     X peek();
 

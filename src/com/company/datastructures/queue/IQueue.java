@@ -6,7 +6,7 @@ public interface IQueue<X> {
 
     void enQueue(X item);
 
-    void deQueue(X item);
+    X deQueue();
 
     boolean isEmpty();
 

@@ -3,8 +3,9 @@ package com.company.datastructures.arrays;
 public class StringReverse {
 
 
-    public void run() {
-        reverseString("madam");
+    public static void main(String[] args) {
+        StringReverse stringReverse = new StringReverse();
+        stringReverse.reverseString("tiny");
     }
 
     private void reverseString(String message) {
@@ -22,18 +23,20 @@ public class StringReverse {
             reverseStringArray[j++] = messageArray[i];
         }
 
-        boolean flag = true;
+        System.out.println(reverseStringArray);
 
-        for (int k = reverseStringArray.length - 1; k >= 0 ; k--) {
-            if (reverseStringArray[k] != messageArray[k]) {
-                flag = false;
-            }
-        }
-
-        if(flag) {
-            System.out.println("Yes");
-        } else {
-            System.out.println("No");
-        }
+//        boolean flag = true;
+//
+//        for (int k = reverseStringArray.length - 1; k >= 0 ; k--) {
+//            if (reverseStringArray[k] != messageArray[k]) {
+//                flag = false;
+//            }
+//        }
+//
+//        if(flag) {
+//            System.out.println("Yes");
+//        } else {
+//            System.out.println("No");
+//        }
     }
 }
